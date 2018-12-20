@@ -4,7 +4,7 @@ require("dotenv").config();
 var axios = require("axios");
 // Used to format date of events
 var moment = require("moment");
-
+// Object created using constructor for results of concert-this query
 var ConcertThis = function() {
     this.concertName;
     this.concertVenue;
@@ -16,6 +16,9 @@ var ConcertThis = function() {
             concert +
             "/events?app_id=" + process.env.BANDS_IN_TOWN;
         axios.get(requestURL).then(function(response) {
+            console.log(
+                "*****************************************************************************"
+            );
             console.log("Number of upcoming events: " + response.data.length);
             console.log(
                 "*****************************************************************************"
