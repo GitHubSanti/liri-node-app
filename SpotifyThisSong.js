@@ -1,3 +1,5 @@
+  // Used to mask API Keys
+  require("dotenv").config();
   // API Spotify package
   var Spotify = require("node-spotify-api");
   // Open browser from node
