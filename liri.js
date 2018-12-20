@@ -13,10 +13,9 @@ switch (liriCommand) {
         let ConcertThis = require("./ConcertThis");
         // Create new ConcertThis Object and assign to let concertThis
         let concertThis = new ConcertThis();
-
+        // Parse thru arg after "concert-this" arg
         let concertArray = userQuery.slice(1, userQuery.length);
         let concert = "";
-
         for (const x in concertArray) {
             concert += concertArray[x] + " ";
         }
@@ -29,6 +28,7 @@ switch (liriCommand) {
         let SpotifyThisSong = require("./SpotifyThisSong");
         // Create SpotifyThisSong instance w/ let spotifyThisSong
         let spotifyThisSong = new SpotifyThisSong();
+        // Parse thru arg after "spotify-this-song" arg
         let songArray = userQuery.slice(1, userQuery.length);
         let song = "";
         for (const x in songArray) {
@@ -38,11 +38,12 @@ switch (liriCommand) {
         song = "'" + song + "'";
         spotifyThisSong.makeSpotifyAPICall(song);
         break;
-    case "movie-this":
+        case "movie-this":
         // Import MovieThis functionality
         let MovieThis = require("./MovieThis")
         // Create MovieThis instance w/ let moviethis
         let movieThis = new MovieThis();
+        // Parse thru arg after "movie-this" arg
         let movieArray = userQuery.slice(1, userQuery.length);
         let movie = "";
         for (const x in movieArray) {
