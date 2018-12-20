@@ -8,8 +8,6 @@
   var keys = require("./keys.js");
   // Instance of Spotify object created to obtain API keys
   spotify = new Spotify(keys.spotify);
-
-
   // Object created using constructor for results of spotify-this-song query
   var SpotifyThisSong = function() {
       artists = [];
