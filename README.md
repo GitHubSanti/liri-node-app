@@ -11,7 +11,7 @@ Event location
 Date of the event (formatted as 'MM/DD/YYYY')
 ```
 ['concert-this' screenshot example](images/concert-this.JPG) <br/>
-[Back to the top](#liri-node-app-language-interpretation-and-recognition-interface)
+[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
 
 ### ***spotify-this-song***
 ###### COMMAND LINE SYNTAX: node liri.js spotify-this-song 'song name here'
@@ -22,8 +22,9 @@ Song's name
 Preview link of the song from Spotify
 Album name the song is from
  ```
- ['spotify-this-song' screenshot example](images/spotify-this-song.JPG)
- [Back to the top](#liri-node-app-language-interpretation-and-recognition-interface)
+ ['spotify-this-song' screenshot example](images/spotify-this-song.JPG) <br/>
+ [Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
+
 
 ### ***movie-this***
 ###### COMMAND LINE SYNTAX: node liri.js movie-this 'movie here'
@@ -39,15 +40,15 @@ Language of the movie
 Plot of the movie
 Actors in the movie
 ```
-['movie-this' screenshot example](images/movie-this.JPG)
-[Back to the top](#liri-node-app-language-interpretation-and-recognition-interface)
+['movie-this' screenshot example](images/movie-this.JPG) <br/>
+[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
 
 
 ### ***do-what-it-says***
 ###### COMMAND LINE SYNTAX: node liri.js do-what-it-says
 do-what-it-says command will execute what has been 
 
-[Back to the top](#liri-node-app-language-interpretation-and-recognition-interface)
+[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
 
 ## Bonus Features
 * **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried
