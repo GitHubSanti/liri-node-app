@@ -5,7 +5,7 @@ var axios = require("axios");
 // Object created using constructor for results of movie-this query
 var MovieThis = function() {
     this.makeOMDbAPICall = function(movie) {
-        axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
+        axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=" + process.env.OMDb).then(
             function(response) {
                 console.log(`Movie Title: ` + response.data.Title);
                 console.log(`Release Year: ` + response.data.Year);
