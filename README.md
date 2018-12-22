@@ -3,18 +3,24 @@
 
 ***concert-this***
 ###### COMMAND LINE SYNTAX: node liri.js concert-this <artist/band name here>
-This will bring back the following data:
+concert-this command will bring back the following data:
 ```
- * number of upcoming events by the artist/band
- * concert/venue/festival name
- * event location
- * date of the event (formatted as 'MM/DD/YYYY')
+number of upcoming events by the artist/band
+concert/venue/festival name
+event location
+date of the event (formatted as 'MM/DD/YYYY')
 ```
 ['concert-this' screenshot example](images/concert-this.JPG)
 
 ***spotify-this-song***
 ###### COMMAND LINE SYNTAX: node liri.js spotify-this-song <song name here>
-  
+spotify-this-song command will bring back the following data:
+ ```
+Artist(s)
+The song's name
+A preview link of the song from Spotify
+The album that the song is from
+ ```
 **movie-this**
 
 **do-what-it-says**
