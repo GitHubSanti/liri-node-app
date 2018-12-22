@@ -23,9 +23,25 @@ A preview link of the song from Spotify
 The album that the song is from
  ```
  ['spotify-this-song' screenshot example](images/spotify-this-song.JPG)
-**movie-this**
 
-**do-what-it-says**
+***movie-this***
+###### COMMAND LINE SYNTAX: node liri.js movie-this 'movie here'
+
+movie-this command will bring back the following data:
+```
+Title of the movie.
+Year the movie came out.
+IMDB Rating of the movie.
+Rotten Tomatoes Rating of the movie.
+Country where the movie was produced.
+Language of the movie.
+Plot of the movie.
+Actors in the movie.
+```
+['movie-this' screenshot example](images/movie-this.JPG)
+
+***do-what-it-says***
+###### COMMAND LINE SYNTAX: node liri.js do-what-it-says
 
 ## Bonus Features
-* spotify-this-song command will open a window on your default browser and play 30 sec clip of the song being queried
+* **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried
