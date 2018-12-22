@@ -1,7 +1,7 @@
 ## liri-node-app (Language Interpretation and Recognition Interface)
 **PURPOSE:** This is a CLI app that recognizes four commands ([**concert-this**](##concert-this), **spotify-this-song**, **movie-this**, **do-what-it-says**). These commands will bring back different information. Read below to learn about the syntax used for these commands and the information retrieved.
 
-## ***concert-this***
+### ***concert-this***
 ###### COMMAND LINE SYNTAX: node liri.js concert-this 'artist/band name here'
 concert-this command will bring back the following data:
 ```
