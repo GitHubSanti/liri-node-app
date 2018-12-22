@@ -5,10 +5,10 @@
 ###### COMMAND LINE SYNTAX: node liri.js concert-this 'artist/band name here'
 concert-this command will bring back the following data:
 ```
-number of upcoming events by the artist/band
-concert/venue/festival name
-event location
-date of the event (formatted as 'MM/DD/YYYY')
+# of upcoming events by the artist/band
+Concert/Venue/Festival name
+Event location
+Date of the event (formatted as 'MM/DD/YYYY')
 ```
 ['concert-this' screenshot example](images/concert-this.JPG)
 
@@ -18,9 +18,9 @@ date of the event (formatted as 'MM/DD/YYYY')
 spotify-this-song command will bring back the following data:
  ```
 Artist(s)
-The song's name
-A preview link of the song from Spotify
-The album that the song is from
+Song's name
+Preview link of the song from Spotify
+Album name the song is from
  ```
  ['spotify-this-song' screenshot example](images/spotify-this-song.JPG)
 
@@ -29,19 +29,20 @@ The album that the song is from
 
 movie-this command will bring back the following data:
 ```
-Title of the movie.
-Year the movie came out.
-IMDB Rating of the movie.
-Rotten Tomatoes Rating of the movie.
-Country where the movie was produced.
-Language of the movie.
-Plot of the movie.
-Actors in the movie.
+Title of the movie
+Year the movie came out
+IMDB Rating of the movie
+Rotten Tomatoes Rating of the movie
+Country where the movie was produced
+Language of the movie
+Plot of the movie
+Actors in the movie
 ```
 ['movie-this' screenshot example](images/movie-this.JPG)
 
 ***do-what-it-says***
 ###### COMMAND LINE SYNTAX: node liri.js do-what-it-says
+do-what-it-says command will execute what has been 
 
 ## Bonus Features
 * **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried
