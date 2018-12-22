@@ -10,9 +10,10 @@ This will bring back the following data:
  * event location
  * date of the event (formatted as 'MM/DD/YYYY')
 ```
-[concerth-this screenshot example](images/concert-this.JPG)
+['concert-this' screenshot example](images/concert-this.JPG)
 
-**spotify-this-song** *SYNTAX - node liri.js spotify-this-song <song name here>*
+***spotify-this-song***
+###### COMMAND LINE SYNTAX: node liri.js spotify-this-song <song name here>
   
 **movie-this**
 
