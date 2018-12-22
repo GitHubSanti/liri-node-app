@@ -2,8 +2,8 @@
 **PURPOSE:** This is a CLI app that recognizes the four commands listed below and gives back data:
 
 
-* **concert-this** 
-#### *SYNTAX - node liri.js concert-this <artist/band name here>*
+##### * **concert-this** 
+###### *SYNTAX - node liri.js concert-this <artist/band name here>*
 
 * **spotify-this-song** *SYNTAX - node liri.js spotify-this-song <song name here>*
   
