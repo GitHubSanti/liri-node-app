@@ -3,7 +3,7 @@
 
 ***concert-this***
 ###### COMMAND LINE SYNTAX: node liri.js concert-this <artist/band name here>
-* This will bring back the following data:
+This will bring back the following data:
 ```
  * number of upcoming events by the artist/band
  * concert/venue/festival name
