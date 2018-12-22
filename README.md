@@ -1,6 +1,5 @@
-# liri-node-app
-(LIRI) - Language Interpretation and Recognition Interface
-**PURPOSE:** This is a CLI app that recognizes 4 commands
+## liri-node-app (Language Interpretation and Recognition Interface)
+* **PURPOSE:** This is a CLI app that recognizes 4 commands
   **concert-this**
   **spotify-this-song**
   **movie-this**
