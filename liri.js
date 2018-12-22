@@ -36,7 +36,6 @@ let liriApp = (liriCommand) => {
             song = song.slice(0, song.length - 1);
             song = "'" + song + "'";
             spotifyThisSong.makeSpotifyAPICall(song);
-            // console.log(spotifyThisSong);
             break;
         case "movie-this":
             // Import MovieThis functionality
