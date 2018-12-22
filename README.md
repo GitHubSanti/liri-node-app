@@ -1,8 +1,8 @@
 ## liri-node-app (Language Interpretation and Recognition Interface)
-**PURPOSE:** This is a CLI app that recognizes four commands ('concert-this', 'spotify-this-song', 'movie-this', 'do-what-it-says'). These commands will bring back different information. Read below to learn about the syntax used for these commands and the information retrieved.
+**PURPOSE:** This is a CLI app that recognizes four commands (**'concert-this'**, **'spotify-this-song'**, **'movie-this'**, **'do-what-it-says'**). These commands will bring back different information. Read below to learn about the syntax used for these commands and the information retrieved.
 
 ***concert-this***
-###### COMMAND LINE SYNTAX: node liri.js concert-this <artist/band name here>
+###### COMMAND LINE SYNTAX: 'node liri.js concert-this <artist/band name here>'
 concert-this command will bring back the following data:
 ```
 number of upcoming events by the artist/band
@@ -13,7 +13,8 @@ date of the event (formatted as 'MM/DD/YYYY')
 ['concert-this' screenshot example](images/concert-this.JPG)
 
 ***spotify-this-song***
-###### COMMAND LINE SYNTAX: node liri.js spotify-this-song <song name here>
+###### COMMAND LINE SYNTAX: 'node liri.js spotify-this-song <song name here>'
+
 spotify-this-song command will bring back the following data:
  ```
 Artist(s)
