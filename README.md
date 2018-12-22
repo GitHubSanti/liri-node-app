@@ -51,6 +51,6 @@ do-what-it-says command will execute what has been
 
 
 ## Bonus Features
-* **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried 
+* **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried <br/>
 <br/>
 [Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
