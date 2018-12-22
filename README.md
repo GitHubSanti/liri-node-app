@@ -10,7 +10,7 @@ Concert/Venue/Festival name
 Event location
 Date of the event (formatted as 'MM/DD/YYYY')
 ```
-['concert-this' screenshot example](images/concert-this.JPG)
+['concert-this' screenshot example](images/concert-this.JPG) <br/>
 [Back to the top](#liri-node-app-language-interpretation-and-recognition-interface)
 
 ### ***spotify-this-song***
