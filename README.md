@@ -3,7 +3,7 @@
 
 
 * **concert-this** 
-*SYNTAX - node liri.js concert-this <artist/band name here>*
+#### *SYNTAX - node liri.js concert-this <artist/band name here>*
 
 * **spotify-this-song** *SYNTAX - node liri.js spotify-this-song <song name here>*
   
