@@ -1,9 +1,9 @@
 ## liri-node-app (Language Interpretation and Recognition Interface)
 **PURPOSE:** This is a CLI app that recognizes the four commands listed below and gives back data:
 
-* **concert-this**
+1) **concert-this**
 ###### SYNTAX - node liri.js concert-this <artist/band name here>
-This 
+This will bring back the number of upcoming events by theName of the venue, venue location, and date of the event (formatted as MM/DD/YYYY)
 
 * **spotify-this-song** *SYNTAX - node liri.js spotify-this-song <song name here>*
   
