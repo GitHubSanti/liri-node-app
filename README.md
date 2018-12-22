@@ -48,7 +48,8 @@ Actors in the movie
 ###### COMMAND LINE SYNTAX: node liri.js do-what-it-says
 do-what-it-says command will execute what has been 
 
-[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
+
 
 ## Bonus Features
 * **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried
+[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
