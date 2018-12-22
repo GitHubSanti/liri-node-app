@@ -14,7 +14,7 @@ Date of the event (formatted as 'MM/DD/YYYY')
 
 ***spotify-this-song***
 ###### COMMAND LINE SYNTAX: node liri.js spotify-this-song 'song name here'
-[link to header](#liri-node-app)
+[link to header](#liri-node-app-(Language-Interpretation-and-Recognition-Interface))
 spotify-this-song command will bring back the following data:
  ```
 Artist(s)
