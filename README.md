@@ -46,10 +46,11 @@ Actors in the movie
 
 ### ***do-what-it-says***
 ###### COMMAND LINE SYNTAX: node liri.js do-what-it-says
-do-what-it-says command will execute the command found within the random.txt file. The random.txt file will have the following SYNTAX
+do-what-it-says command will execute the command found within the random.txt file. The random.txt file will have the following SYNTAX:
 ###### RANDOM.TXT SYNTAX: [concert-this|spotify-this-song|movie-this],"[parameter to pass to query]"
 The following [random.txt screenshot](images/'random.txt'-example.JPG) indicates to use the movie-this liri query and the "Finding Nemo" parameter for that query. That will produce the following output: <br/>
-[do-what-it-says screenshot example](images/do-what-it-says.JPG)
+[do-what-it-says screenshot example](images/do-what-it-says.JPG)<br/>
+[Back to the top of README.md](#liri-node-app-language-interpretation-and-recognition-interface)
 
 ## Bonus Features
 * **spotify-this-song** command will open a window on your default browser and play a 30 second clip of the song being queried <br/>
